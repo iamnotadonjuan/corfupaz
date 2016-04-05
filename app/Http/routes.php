@@ -40,10 +40,6 @@ Route::group(['middleware' => ['web']], function () {
   Route::get('download','FrontController@download');
   Route::get('atencion','FrontController@atencion');
   Route::get('contacto','FrontController@contacto');
-  //Route::get('register','FrontController@register');
-  //Route::get('edit','FrontController@edit');
-  //Route::get('productos','FrontController@productos');
-  Route::get('loginadmin', 'FrontController@loginadmin');
   Route::get('cultivos','FrontController@cultivos');
 
   Route::get('auth/register', 'Auth\AuthController@getRegister');
@@ -73,5 +69,4 @@ Route::group(['middleware' => ['web']], function () {
   Route::resource('usuario','UsuarioController');
 
 
-  Route::resource('logadmin', 'LogAdminController');
 });

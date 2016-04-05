@@ -37,7 +37,10 @@
             <li><a class="dropdown-button" href="#!" data-activates="dropdown2">{!!Auth::user()->name!!}<i class="material-icons right">arrow_drop_down</i></a></li>
             <ul id="dropdown2" class="dropdown-content">
             <li><a href="{!!URL::to('user')!!}">Mi Perfil</a></li>
-            <li><a href="{!!URL::to('/usuario')!!}">Subir imagen</a></li>
+            <li><a href="{!!URL::to('/user/upload')!!}">Subir cultivo</a></li>
+            @if(Auth::user()->id == 1)
+              <li><a href="{!!URL::to('/usuario')!!}">Administración de usuarios</a></li>
+            @endif
             <li><a href="{!!URL::to('/user/comments')!!}">Comentarios</a></li>
             <li><a href="{!!URL::to('auth/logout')!!}">Salir</a></li>
           @else
@@ -97,7 +100,6 @@
               <div class="col l6 s12">
                 <h5 class="white-text">Corfupaz</h5>
                 <p class="grey-text text-lighten-4">Corporación fuerza de paz - Lideres en sabila</p>
-                <a class="white-text text*lighten-3" href="{!!URL::to('loginadmin')!!}">Admin</a>
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Redes Sociales</h5>
