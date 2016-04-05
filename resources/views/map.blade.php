@@ -44,7 +44,16 @@
         '</div>'+
         '<h1 id="firstHeading" class="firstHeading">Morrochuzco - Tolima</h1>'+
         '<div id="bodyContent">'+
-        '<img src="https://www.buyapi.ca/wp-content/uploads/2014/12/Raspberry-Pi-Logo1.jpg" alt="" />'+
+        '<table>'+
+        '<tr>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/morro1.jpg" width="300" />'+
+        '</td>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/morro2.jpg" width="300" />'+
+        '</td>'+
+        '</tr>'+
+        '</table>'+
         '</div>'+
         '</div>';
 
@@ -53,7 +62,16 @@
         '</div>'+
         '<h1 id="firstHeading" class="firstHeading">San Francisco - Tolima</h1>'+
         '<div id="bodyContent">'+
-        '<img src="http://www.cronicadelquindio.com/files/noticias/20111202062003.jpg" width="450" />'+
+        '<table>'+
+        '<tr>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/sanfrancisco1.jpg" width="300" />'+
+        '</td>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/sanfrancisco2.jpg" width="300" />'+
+        '</td>'+
+        '</tr>'+
+        '</table>'+
         '</div>'+
         '</div>';
 
@@ -62,7 +80,16 @@
         '</div>'+
         '<h1 id="firstHeading" class="firstHeading">Alvarado - Tolima</h1>'+
         '<div id="bodyContent">'+
-        '<img src="http://www.cronicadelquindio.com/files/noticias/20111202062003.jpg" width="450" />'+
+        '<table>'+
+        '<tr>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/alvarado1.jpg" width="300" />'+
+        '</td>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/alvarado2.jpg" width="300" />'+
+        '</td>'+
+        '</tr>'+
+        '</table>'+
         '</div>'+
         '</div>';
 
@@ -71,7 +98,16 @@
         '</div>'+
         '<h1 id="firstHeading" class="firstHeading">Alvarado - Tolima</h1>'+
         '<div id="bodyContent">'+
-        '<img src="http://www.cronicadelquindio.com/files/noticias/20111202062003.jpg" width="450" />'+
+        '<table>'+
+        '<tr>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/alvarado1.jpg" width="300" />'+
+        '</td>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/alvarado2.jpg" width="300" />'+
+        '</td>'+
+        '</tr>'+
+        '</table>'+
         '</div>'+
         '</div>';
     var contenedeorString4 = '<div id="content">'+
@@ -79,7 +115,16 @@
         '</div>'+
         '<h1 id="firstHeading" class="firstHeading">Cajamarca - Tolima</h1>'+
         '<div id="bodyContent">'+
-        '<img src="http://www.cronicadelquindio.com/files/noticias/20111202062003.jpg" width="450" />'+
+        '<table>'+
+        '<tr>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/cajamarca1.jpg" width="300" />'+
+        '</td>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/cajamarca2.jpg" width="300" />'+
+        '</td>'+
+        '</tr>'+
+        '</table>'+
         '</div>'+
         '</div>';
     var contenedeorString5 = '<div id="content">'+
@@ -87,7 +132,16 @@
         '</div>'+
         '<h1 id="firstHeading" class="firstHeading">Guamo - Tolima</h1>'+
         '<div id="bodyContent">'+
-        '<img src="http://www.cronicadelquindio.com/files/noticias/20111202062003.jpg" width="450" />'+
+        '<table>'+
+        '<tr>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/guamo1.jpg" width="300" />'+
+        '</td>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/guamo2.jpg" width="300" />'+
+        '</td>'+
+        '</tr>'+
+        '</table>'+
         '</div>'+
         '</div>';
     var contenedeorString6 = '<div id="content">'+
@@ -95,7 +149,16 @@
         '</div>'+
         '<h1 id="firstHeading" class="firstHeading">Lerida - Tolima</h1>'+
         '<div id="bodyContent">'+
-        '<img src="http://www.cronicadelquindio.com/files/noticias/20111202062003.jpg" width="450" />'+
+        '<table>'+
+        '<tr>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/lerida1.jpg" width="300" />'+
+        '</td>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/lerida2.jpg" width="300" />'+
+        '</td>'+
+        '</tr>'+
+        '</table>'+
         '</div>'+
         '</div>';
     var contenedeorString7 = '<div id="content">'+
@@ -103,7 +166,16 @@
         '</div>'+
         '<h1 id="firstHeading" class="firstHeading">Natagaima - Tolima</h1>'+
         '<div id="bodyContent">'+
-        '<img src="http://www.cronicadelquindio.com/files/noticias/20111202062003.jpg" width="450" />'+
+        '<table>'+
+        '<tr>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/natagaima1.jpg" width="300" />'+
+        '</td>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/natagaima2.jpg" width="300" />'+
+        '</td>'+
+        '</tr>'+
+        '</table>'+
         '</div>'+
         '</div>';
     var contenedeorString8 = '<div id="content">'+
@@ -111,7 +183,16 @@
         '</div>'+
         '<h1 id="firstHeading" class="firstHeading">Ortega - Tolima</h1>'+
         '<div id="bodyContent">'+
-        '<img src="http://www.cronicadelquindio.com/files/noticias/20111202062003.jpg" width="450" />'+
+        '<table>'+
+        '<tr>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/ortega1.jpg" width="300" />'+
+        '</td>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/ortega2.jpg" width="300" />'+
+        '</td>'+
+        '</tr>'+
+        '</table>'+
         '</div>'+
         '</div>';
     var contenedeorString9 = '<div id="content">'+
@@ -119,7 +200,16 @@
         '</div>'+
         '<h1 id="firstHeading" class="firstHeading">Palermo - Huila</h1>'+
         '<div id="bodyContent">'+
-        '<img src="http://www.cronicadelquindio.com/files/noticias/20111202062003.jpg" width="450" />'+
+        '<table>'+
+        '<tr>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/palermo1.jpg" width="300" />'+
+        '</td>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/palermo2.jpg" width="300" />'+
+        '</td>'+
+        '</tr>'+
+        '</table>'+
         '</div>'+
         '</div>';
     var contenedeorString10 = '<div id="content">'+
@@ -127,7 +217,16 @@
         '</div>'+
         '<h1 id="firstHeading" class="firstHeading">Purificación - Tolima</h1>'+
         '<div id="bodyContent">'+
-        '<img src="http://www.cronicadelquindio.com/files/noticias/20111202062003.jpg" width="450" />'+
+        '<table>'+
+        '<tr>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/purificacion1.jpg" width="300" />'+
+        '</td>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/purificacion2.jpg" width="300" />'+
+        '</td>'+
+        '</tr>'+
+        '</table>'+
         '</div>'+
         '</div>';
     var contenedeorString11 = '<div id="content">'+
@@ -135,7 +234,16 @@
         '</div>'+
         '<h1 id="firstHeading" class="firstHeading">Rovira - Tolima</h1>'+
         '<div id="bodyContent">'+
-        '<img src="http://www.cronicadelquindio.com/files/noticias/20111202062003.jpg" width="450" />'+
+        '<table>'+
+        '<tr>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/rovira1.jpg" width="300" />'+
+        '</td>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/rovira2.jpg" width="300" />'+
+        '</td>'+
+        '</tr>'+
+        '</table>'+
         '</div>'+
         '</div>';
     var contenedeorString12 = '<div id="content">'+
@@ -143,7 +251,16 @@
         '</div>'+
         '<h1 id="firstHeading" class="firstHeading">Saldaña - Tolima</h1>'+
         '<div id="bodyContent">'+
-        '<img src="http://www.cronicadelquindio.com/files/noticias/20111202062003.jpg" width="450" />'+
+        '<table>'+
+        '<tr>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/saldaña1.jpg" width="300" />'+
+        '</td>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/saldaña2.jpg" width="300" />'+
+        '</td>'+
+        '</tr>'+
+        '</table>'+
         '</div>'+
         '</div>';
     var contenedeorString13 = '<div id="content">'+
@@ -151,7 +268,16 @@
         '</div>'+
         '<h1 id="firstHeading" class="firstHeading">San Luis - Tolima</h1>'+
         '<div id="bodyContent">'+
-        '<img src="http://www.cronicadelquindio.com/files/noticias/20111202062003.jpg" width="450" />'+
+        '<table>'+
+        '<tr>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/sanluis1.jpg" width="300" />'+
+        '</td>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/sanluis2.jpg" width="300" />'+
+        '</td>'+
+        '</tr>'+
+        '</table>'+
         '</div>'+
         '</div>';
     var contenedeorString14 = '<div id="content">'+
@@ -159,7 +285,16 @@
         '</div>'+
         '<h1 id="firstHeading" class="firstHeading">Valle de San Juan - Tolima</h1>'+
         '<div id="bodyContent">'+
-        '<img src="http://www.cronicadelquindio.com/files/noticias/20111202062003.jpg" width="450" />'+
+        '<table>'+
+        '<tr>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/sanjuan1.jpg" width="300" />'+
+        '</td>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/sanjuan2.jpg" width="300" />'+
+        '</td>'+
+        '</tr>'+
+        '</table>'+
         '</div>'+
         '</div>';
     var contenedeorString15 = '<div id="content">'+
@@ -167,7 +302,16 @@
         '</div>'+
         '<h1 id="firstHeading" class="firstHeading">Ibagué - Tolima</h1>'+
         '<div id="bodyContent">'+
-        '<img src="http://www.cronicadelquindio.com/files/noticias/20111202062003.jpg" width="450" />'+
+        '<table>'+
+        '<tr>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/ibague1.jpg" width="300" />'+
+        '</td>'+
+        '<td>'+
+        '<img class="responsive-img" src="../public/img/ibague2.jpg" width="300" />'+
+        '</td>'+
+        '</tr>'+
+        '</table>'+
         '</div>'+
         '</div>';
 
