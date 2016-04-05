@@ -61,7 +61,7 @@
                     <p>
 
                     </p>
-                    @if($comment->id_user == Auth::user()->id)
+                    @if($comment->id_user == Auth::user()->id || Auth::user()->id == 1)
                       <!-- Modal Trigger -->
                       <a class="red waves-effect waves-light btn modal-trigger" data-target="deleteComment{{$modal}}">Eliminar</a>
                       <a class="blue waves-effect waves-light btn modal-trigger" data-target="editComment{{$modal}}">Editar</a>

@@ -132,6 +132,13 @@ class UsuarioController extends Controller
   }
   else
   {
+    if(Auth::user()->id == 1 && Comments::where('id', '=', $request->id_comment)
+            ->where('id', '=', $request->id_comment)->delete()
+            ){
+        return redirect('user/comments')->with('status', 'Comentario eliminado por el administrador');
+    }else {
+      return redirect('user/comments')->with('error', 'Ha ocurrido un error administrador');
+    }
       if(Comments::where('id', '=', $request->id_comment)
               ->where('id_user', '=', Auth::user()->id)->delete()
               ){
