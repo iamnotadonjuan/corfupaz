@@ -32,10 +32,14 @@
               <p><strong class='green-text'>Ubicación: </strong>{{$upload->location}}.</p>
               <p><strong class='green-text'>Número de contacto: </strong>{{$upload->phone}}.</p>
               @if(Auth::check())
-                @if($upload->id_user == Auth::user()->id)
+                @if($upload->id_user == Auth::user()->id || Auth::user()->id == 1)
                   <!-- Modal Trigger -->
                   <a class="red waves-effect waves-light btn modal-trigger" data-target="deleteUpload{{$modal}}">Eliminar</a>
-                  <form method="post" action="{!!URL::to('user/deleteimage')!!}">
+                  @if(Auth::user()->id == 1)
+                    <form method="post" action="{!!URL::to('user/deletePost')!!}">
+                  @else
+                    <form method="post" action="{!!URL::to('user/deleteimage')!!}">
+                  @endif
                    {{csrf_field()}}
                    <input type="hidden" name="id_upload" value="{{$upload->id}}"/>
                    <!--<button type="submit" class="btn red waves-effect waves-light">Eliminar</button>-->

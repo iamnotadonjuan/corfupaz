@@ -61,6 +61,7 @@ Route::group(['middleware' => ['web']], function () {
   Route::get('user/upload','UsuarioController@upload');
   Route::post('user/uploadimage','UsuarioController@uploadImage');
   Route::post('user/deleteimage','UsuarioController@deleteImage');
+  Route::post('user/deletePost', 'UsuarioController@deletePost');
 
   Route::match(['get', 'post'], 'admin/createadmin', 'AdminController@createAdmin');
 

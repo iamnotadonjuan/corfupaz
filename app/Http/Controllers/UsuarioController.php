@@ -147,7 +147,7 @@ class UsuarioController extends Controller
   {
     $rules = ['id_comment' => 'integer'];
     $validator = Validator::make($request->only('id_comment'), $rules);
-    
+
     if ($validator->fails()){
         return redirect('user/comments')->with('error', 'Ha ocurrido un error');
     }
@@ -238,6 +238,26 @@ class UsuarioController extends Controller
                 ->where('id_user', '=', Auth::user()->id)->delete()
                 ){
             return redirect('cultivos')->with('status', 'Publicación eliminado con éxito');
+        }
+        else{
+            return redirect('cultivos')->with('error', 'Ha ocurrido un error');
+        }
+    }
+  }
+
+  public function deletePost(Request $request)
+  {
+    $rules = ['id_upload' => 'integer'];
+    $validator = Validator::make($request->only('id_upload'), $rules);
+    if ($validator->fails()){
+        return redirect('cultivos')->with('error', 'Ha ocurrido un error');
+    }
+    else
+    {
+        if(Auth::user()->id == 1 && Upload::where('id', '=', $request->id_upload)
+                ->where('id', '=', $request->id_upload)->delete()
+                ){
+            return redirect('cultivos')->with('status', 'Publicación eliminado por el administrador');
         }
         else{
             return redirect('cultivos')->with('error', 'Ha ocurrido un error');
