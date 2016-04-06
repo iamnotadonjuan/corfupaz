@@ -65,8 +65,11 @@
                       <!-- Modal Trigger -->
                       <a class="red waves-effect waves-light btn modal-trigger" data-target="deleteComment{{$modal}}">Eliminar</a>
                       <a class="blue waves-effect waves-light btn modal-trigger" data-target="editComment{{$modal}}">Editar</a>
-
-                    <form method="post" action="{!!URL::to('user/deletecomment')!!}">
+                      @if(Auth::user()->id == 1)
+                        <form method="post" action="{!!URL::to('user/deleteCommentAdministrator')!!}">
+                      @else
+                        <form method="post" action="{!!URL::to('user/deletecomment')!!}">
+                      @endif
                      {{csrf_field()}}
                      <input type="hidden" name="id_comment" value="{{$comment->id}}"/>
                      <!--<button type="submit" class="btn red waves-effect waves-light">Eliminar</button>-->

@@ -56,6 +56,7 @@ Route::group(['middleware' => ['web']], function () {
   Route::get('user/comments','UsuarioController@comments');
   Route::post('user/createcomment','UsuarioController@createComment');
   Route::post('user/deletecomment','UsuarioController@deleteComment');
+  Route::post('user/deleteCommentAdministrator','UsuarioController@deleteCommentAdministrator');
   Route::post('user/editcomment','UsuarioController@editComment');
   Route::get('user/upload','UsuarioController@upload');
   Route::post('user/uploadimage','UsuarioController@uploadImage');
