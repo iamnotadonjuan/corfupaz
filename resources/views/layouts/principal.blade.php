@@ -9,6 +9,8 @@
     <!--Import materialize.css-->
     {!!Html::style('../public/css/materialize.min.css')!!}
     {!!Html::style('../public/css/style.css')!!}
+    {!!Html::style('https://fonts.googleapis.com/css?family=Bree+Serif')!!}
+    {!! Html::script('https://use.fontawesome.com/5dc2ed8efe.js') !!}
     <title>Sabila</title>
   </head>
   <body>
@@ -22,7 +24,7 @@
 </ul>
 <nav class="green accent-4">
   <div class="nav-wrapper">
-    <a href="#!" class="brand-logo">CORFUPAZ</a>
+    <a href="#!" class="brand-logo">Corfupaz<i id='globe' class="fa fa-globe" aria-hidden="true"></i></a>
     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
     <ul class="nav right hide-on-med-and-down">
       <li><a href="{!!URL::to('/')!!}">Inicio</a></li>

@@ -2,3 +2,44 @@ p.text-align
 {
   text-align: justify;
 }
+
+nav .brand-logo 
+{
+	font-size: 37px;
+}
+
+.brand-logo
+{
+	transition: 1s ease-out;
+	margin-left: 20px;
+	font-family: 'Bree Serif', serif;
+}
+
+.brand-logo:hover
+{
+	transition: .5s ease-in;
+	color: #bdf9f6;
+	margin-left: 20px;
+	font-family: 'Bree Serif', serif;
+}
+
+
+#globe
+{
+	padding-left: 10px;
+	transition: .8s ease-out;
+}
+
+.brand-logo:hover #globe
+{
+	transition: 1.5s ease;
+	transform:  rotateZ(360deg); 
+}
+
+#parallax-content
+{
+	font-size: 20px;
+	text-align: justify;
+}
+
+

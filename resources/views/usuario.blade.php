@@ -1,8 +1,4 @@
 @extends('layouts.principal')
-  <?php $message = Session::get('message') ?>
-
-  @if(Session::has('message'))
-  @endif﻿
 @section('content')
   @include('alerts.request')
   @include('alerts.message')

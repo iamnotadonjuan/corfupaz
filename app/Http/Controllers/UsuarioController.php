@@ -272,7 +272,7 @@ class UsuarioController extends Controller
 
   public function index()
   {
-    $users = User::paginate(2);
+    $users = User::paginate(3);
     return view('/usuario', compact('users'));
   }
 
