@@ -15,8 +15,8 @@ return [
     */
 
     'mailgun' => [
-        'domain' => env('MAILGUN_DOMAIN'),
-        'secret' => env('MAILGUN_SECRET'),
+        'domain' => env('corfupaz.org'),
+        'secret' => env('key-53a9217ca0ad289b10b832b598d4c309'),
     ],
 
     'mandrill' => [

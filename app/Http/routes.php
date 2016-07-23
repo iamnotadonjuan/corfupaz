@@ -10,16 +10,6 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-//Route::resource('corfupaz', 'CorfupazController');
-
-/*Route::get('/', function () {
-    return view('welcome');
-});*/
-
-
-
-
-
 
 /*
 |--------------------------------------------------------------------------
@@ -39,7 +29,10 @@ Route::group(['middleware' => ['web']], function () {
   Route::get('map','FrontController@map');
   Route::get('download','FrontController@download');
   Route::get('atencion','FrontController@atencion');
+
   Route::get('contacto','FrontController@contacto');
+  Route::post('contacto', 'FrontController@send');
+
   Route::get('cultivos','FrontController@cultivos');
 
   Route::get('auth/register', 'Auth\AuthController@getRegister');
